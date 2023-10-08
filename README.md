@@ -1,6 +1,4 @@
-# Neural Network(NN) prediction model for the sale price.
-
-# Development of the NN Prediction Model 
+# Development of the NN Prediction Model for the sale price.
 According to the given dataset, we have identified four input features, namely GarageCars, GarageArea, OverallQual, GrLivArea, and one output feature that will be forecasted, which is SalePrice. The neural network model is developed using Google Colab, and the language is Python. The main steps followed during the development are mentioned below:
 1.	Import the Pandas library and read the .xls file.
 2.	The output data frame is assigned to a variable y, and all the input data frame is assigned to a variable x.
@@ -28,11 +26,8 @@ First, the mean value of each parameter is derived to determine the impact of th
 As per Figures 1, 2, 3 and 4, it is clearly observed that keeping the parameter GrLivArea as variables and the other three parameters constant (mean values of the input) has a significant impact on the SalesPrice compared to Overall Quality, Garage Area and Garage Cars.
 
 <img width="258" alt="image" src="https://github.com/Rajdeep096/Neural-Network-NN-prediction-model-for-the-sale-price./assets/147287417/33df5cea-67a7-4356-ad62-28425d88fa32">
-
 <img width="251" alt="image" src="https://github.com/Rajdeep096/Neural-Network-NN-prediction-model-for-the-sale-price./assets/147287417/da543730-dce5-433b-a435-c9132ced0d7c">
-
 <img width="293" alt="image" src="https://github.com/Rajdeep096/Neural-Network-NN-prediction-model-for-the-sale-price./assets/147287417/a2305128-cac3-41d8-afca-6114e5d92108">
-
 <img width="308" alt="image" src="https://github.com/Rajdeep096/Neural-Network-NN-prediction-model-for-the-sale-price./assets/147287417/fd31a449-3ff7-4938-bdee-1907c227c225">
 
 # Forecasted Value
